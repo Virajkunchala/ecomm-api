@@ -104,7 +104,7 @@ Example Response:
     "price": 29.99,
     "stock": 100
   },
-  // ... more products
+ 
 ]
 ```
 POST /products
@@ -123,8 +123,6 @@ Content-Type: application/json
 }
 Example Response:
 ```json
-JSON
-
 {
   "id": 2,
   "name": "New Product",
@@ -172,15 +170,15 @@ Example Response:
   "status": "pending"
 }
 
-```
-Environment Configuration
-DATABASE_URL: Configures the database connection string. Set in the .env file.
-Dependencies
-FastAPI
-SQLAlchemy
-psycopg2-binary
-pytest
-python-dotenv
-uvicorn
-Alembic
-````
+Environment Configuration<br>
+DATABASE_URL: Configures the database connection string. Set in the .env file.<br>
+
+Dependencies<br>
+FastAPI<br>
+SQLAlchemy<br>
+psycopg2-binary<br>
+pytest<br>
+python-dotenv<br>
+uvicorn<br>
+Alembic<br>
+    ````
