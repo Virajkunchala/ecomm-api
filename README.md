@@ -34,6 +34,7 @@ cd <your_repository_directory>
 Create a .env file in the project root directory with the following content:
 
 DATABASE_URL=postgresql://ecommerce_user:ecomdb@db/ecommerce_db
+replace user_name,database values accordingly
 ### 3. Build and Run the Docker Containers
 ```bash
 docker-compose up --build -d
@@ -170,5 +171,3 @@ Example Response:
   "status": "pending"
 }
 ```
-
-# DATABASE_URL: Configures the database connection string. Set in the .env file.
