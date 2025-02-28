@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+ecomm_env/
+*.egg-info/
+.tox/
+build/
+dist/
+sdist/
+*.egg
+.eggs
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+*.whl
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Environments
+.env
+.venv
+*.swp
+*.swo
+*.DS_Store
+*.sqlite
+*.log
+
+# Docker
+.dockerenv
+docker-compose.override.yml
+docker-compose.yml.bak
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.tmproj
+*.tern-project
+*.ipch/
+*.ist
+*.dtags
+*.tags
+.project
+.settings/
+.recommenders
+*.iml
+*.bak
+*.orig
+
+# OS generated files #
+.DS_Store
+Thumbs.db
