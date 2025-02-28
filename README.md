@@ -26,8 +26,8 @@ This project implements a RESTful API with FastAPI and SQLAlchemy (Postgres) for
 ### 1. Clone the Repository
 
 ```bash
-git clone <your_repository_url>
-cd <your_repository_directory>
+git clone https://github.com/Virajkunchala/ecomm-api.git
+cd ecomm-api
 ```
 
 ### 2. Set Up Environment Variables
