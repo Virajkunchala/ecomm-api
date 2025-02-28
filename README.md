@@ -170,15 +170,4 @@ Example Response:
   "status": "pending"
 }
 
-Environment Configuration<br>
-DATABASE_URL: Configures the database connection string. Set in the .env file.<br>
-
-Dependencies<br>
-FastAPI<br>
-SQLAlchemy<br>
-psycopg2-binary<br>
-pytest<br>
-python-dotenv<br>
-uvicorn<br>
-Alembic<br>
-    ````
+# DATABASE_URL: Configures the database connection string. Set in the .env file.
