@@ -169,5 +169,6 @@ Example Response:
   "total_price": 109.97,
   "status": "pending"
 }
+```
 
 # DATABASE_URL: Configures the database connection string. Set in the .env file.
